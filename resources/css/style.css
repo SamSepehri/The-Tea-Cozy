@@ -1,0 +1,187 @@
+/* === UNIVERSAL STYLES === */
+
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+h5 {
+    font-size: .75em;
+}
+
+main {
+    padding-top: 60px;
+}
+
+
+
+/*===Navigation and Logo Style===*/
+
+a {
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+.logo {
+    flex: 1;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.logo img {
+    height: 50px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: underline;
+    flex: 4;
+    padding-right: 10px;
+}
+
+header {
+    display: flex;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+}
+
+
+/* === TEA COZY MISSION STYLES === */
+
+#mission-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    width: 1200px;
+    background-image: url("../img/img-mission-background.jpg");
+    margin: 0 auto;
+
+}
+
+.mission-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+
+/* === FEATURED TEAS STYLES === */
+
+#featured-section {
+    padding-top: 70px;
+    margin-bottom: 55px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.image-container img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 0;
+}
+
+.image-container figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* === TEA Cozy Locationas === */
+#location-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/img-locations-background.jpg");
+    margin: 0 auto;
+    height: 600px;
+    width: 1200px;
+}
+
+/* section for location boxes */
+.location-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 15px;
+}
+
+
+.location-box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 285px;
+    opacity: 1;
+}
+
+.location-box h3 {
+    margin-bottom: 10px;
+}
+
+.location-header {
+    background-color: transparent;
+    margin-top: -65px;
+    margin-bottom: 0;
+}
+
+.middle-box {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* === contact section === */
+
+.contact {
+    height: 200px;
+    font-style: normal;
+    margin-top: -18px;
+}
+
+.email {
+    padding-top: 8px;
+}
+
+.copyright {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 0;
+}
